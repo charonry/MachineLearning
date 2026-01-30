@@ -17,4 +17,4 @@ df['country'] = df['country'].astype('category')
 imputer = SimpleImputer(strategy='mean')
 df_numeric = df[['age', 'salary']]
 df[['age', 'salary']] = imputer.fit_transform(df_numeric)
-print(f"处理后数据：{df}")
+print(f"缺失值处理后数据：{df}")
