@@ -1,5 +1,6 @@
 """
-LDA:线性判别分析
+LDA:线性判别分析-有监督
+主要用于分类和降维。
 """
 from sklearn.datasets import load_iris
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
