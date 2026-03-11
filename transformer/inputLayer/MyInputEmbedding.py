@@ -26,4 +26,6 @@ print(embr.shape) 2*4*512
 x = torch.LongTensor([[100, 2, 421, 508], [491, 998, 1, 221]])
 myEmb = MyEmbeddings(1000, 512)
 myEmbr = myEmb(x)
-print(myEmbr.shape, myEmbr)
+
+if __name__ == '__main__':
+    print(myEmbr.shape, myEmbr)
