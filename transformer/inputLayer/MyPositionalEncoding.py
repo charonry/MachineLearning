@@ -1,3 +1,6 @@
+"""
+位置编码器
+"""
 import math
 import torch
 from torch import nn

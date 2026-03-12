@@ -1,3 +1,6 @@
+"""
+文本嵌入层
+"""
 import math
 import torch
 from torch import nn
