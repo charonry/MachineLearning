@@ -4,7 +4,7 @@
 import math
 import torch
 from torch import nn
-from MyInputEmbedding import myEmbr
+from transformer.inputLayer.MyInputEmbedding import myEmbr
 
 
 class MyPositionalEncoding(nn.Module):
