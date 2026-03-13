@@ -3,7 +3,7 @@
 在Transformer中前馈全连接层就是具有两层线性层的全连接⽹络
 考虑注意⼒机制可能对复杂过程的拟合程度不够, 通过增加两层⽹络来增强模型的能⼒.
 """
-from transformer.EncoderLayer.MyMultiHeadedAttention import mha_result
+from transformer.encoderLayer.MyMultiHeadedAttention import mha_result
 import torch
 from torch import nn
 from torch.nn import functional as F

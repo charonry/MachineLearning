@@ -13,7 +13,7 @@
 import copy
 from torch import nn
 from transformer.inputLayer.MyPositionalEncoding import result as pe_result
-from transformer.EncoderLayer.MyAttention import MyAttention
+from transformer.encoderLayer.MyAttention import MyAttention
 import torch
 
 
