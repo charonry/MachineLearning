@@ -51,7 +51,7 @@ def make_model(source_vocab, target_vocab, N=6, d_model=512, d_ff=2048, head=8, 
     # 初始化模型参数，判断模型维度>1将矩阵转换为一个服从正态分布的矩阵
     for p in model.parameters():
         if p.dim() > 1:
-            nn.init.xavier_normal(p)
+            nn.init.xavier_normal_(p)
 
     return model
 
