@@ -1,0 +1,17 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# 忽略 PyCharm 项目配置文件夹（核心规则）
+.idea/
+
+# 可选：忽略 PyCharm 生成的其他配置文件（如果有的话）
+*.iml
+*.iws
+*.ipr
+out/
+target/
